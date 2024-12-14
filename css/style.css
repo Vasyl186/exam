@@ -6,6 +6,9 @@
 
 body {
     font-family: Arial, sans-serif;
+}
+
+.background {
     background-color: #f4f4f4;
     display: flex;
     align-items: center;
@@ -18,7 +21,7 @@ h1 {
     margin-bottom: 50px;
 }
 
-div {
+.background div {
     background-color: #fff;
     padding: 30px;
     border-radius: 8px;
