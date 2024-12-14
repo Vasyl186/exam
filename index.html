@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Калькулятор валют</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <h1>Калькулятор валют</h1>
+    <div>
+        <select name="first_currency" id="first_currency">
+            <option value="uah">Гривні</option>
+            <option value="usd">Долари</option>
+            <option value="eur">Євро</option>
+        </select>
+        <select name="second_currency" id="second_currency">
+            <option value="usd">Долари</option>
+            <option value="uah">Гривні</option>
+            <option value="eur">Євро</option>
+        </select>
+        <label for="num">Купити суму:</label><input type="text" id="num">
+        <p>Вартість: <b id="result"></b></p>
+    </div>
+    
+    <script src="script/script.js"></script>
+</body>
+</html>
